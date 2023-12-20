@@ -1,0 +1,54 @@
+module github.com/brucejrc/iris
+
+go 1.20
+
+require (
+	github.com/BurntSushi/toml v0.3.0
+	github.com/Joker/jade v0.0.0-20161230135920-35b3f5bdbcc9
+	github.com/PuerkitoBio/goquery v1.1.1-0.20170520194520-2dc93891ab3b
+	github.com/Unknwon/i18n v0.0.0-20170218213920-8372b908b587
+	github.com/ajg/form v0.0.0-20160822230020-523a5da1a92f
+	github.com/aymerick/raymond v2.0.2-0.20161209220724-72acac220747+incompatible
+	github.com/davecgh/go-spew v1.1.0
+	github.com/eknkc/amber v0.0.0-20170415084350-f0d8fdb67f9f
+	github.com/esemplastic/unis v0.0.0-20170509161724-6e30ed034e8c
+	github.com/fatih/structs v1.0.1-0.20170524075631-74a29b9fac73
+	github.com/flosch/pongo2 v0.0.0-20170227155500-1d0f0d3af150
+	github.com/garyburd/redigo v1.1.0
+	github.com/gavv/monotime v0.0.0-20161010190848-47d58efa6955
+	github.com/getlantern/context v0.0.0-20160525112039-624d99b1798d
+	github.com/getlantern/errors v0.0.0-20160829164957-99fa440517e8
+	github.com/getlantern/filepersist v0.0.0-20160317154340-c5f0cd24e799
+	github.com/getlantern/golog v0.0.0-20170508214112-cca714f7feb5
+	github.com/getlantern/hex v0.0.0-20160523043825-083fba3033ad
+	github.com/getlantern/hidden v0.0.0-20160523043807-d52a649ab33a
+	github.com/getlantern/ops v0.0.0-20160607132800-b70875f5d689
+	github.com/getlantern/stack v1.5.1-0.20160516001742-02f928aad224
+	github.com/google/go-querystring v0.0.0-20170111101155-53e6ce116135
+	github.com/gorilla/websocket v1.1.0
+	github.com/imdario/mergo v0.0.0-20160216103600-3e95a51e0639
+	github.com/imkira/go-interpol v1.1.0
+	github.com/juju/errors v0.0.0-20170509134257-8234c829496a
+	github.com/klauspost/compress v1.2.2-0.20170528132359-f3dce52e0576
+	github.com/klauspost/cpuid v0.0.0-20160302075316-09cded8978dc
+	github.com/microcosm-cc/bluemonday v0.0.0-20161202143824-e79763773ab6
+	github.com/monoculum/formam v2.0.1-0.20170411223209-334e05a3c7f9+incompatible
+	github.com/moul/http2curl v0.0.0-20161031194548-4e24498b31db
+	github.com/pmezard/go-difflib v1.0.0
+	github.com/russross/blackfriday v0.0.0-20170509060714-0ba0f2b6ed7c
+	github.com/satori/go.uuid v1.1.1-0.20170321230731-5bf94b69c6b6
+	github.com/sergi/go-diff v0.0.0-20170409071739-feef008d51ad
+	github.com/stretchr/testify v1.1.5-0.20170601210322-f6abca593680
+	github.com/valyala/bytebufferpool v1.0.0
+	github.com/xeipuuv/gojsonpointer v0.0.0-20170225233418-6fe8760cad35
+	github.com/xeipuuv/gojsonreference v0.0.0-20150808065054-e02fc20de94c
+	github.com/xeipuuv/gojsonschema v0.0.0-20170528113821-0c8571ac0ce1
+	github.com/yalp/jsonpath v0.0.0-20150812003900-31a79c7593bb
+	github.com/yudai/gojsondiff v0.0.0-20170107030110-7b1b7adf999d
+	github.com/yudai/golcs v0.0.0-20170316035057-ecda9a501e82
+	golang.org/x/crypto v0.0.0-20170601173114-e1a4589e7d3e
+	golang.org/x/net v0.0.0-20170602201553-e4fa1c5465ad
+	golang.org/x/text v0.0.0-20170603003618-ccbd3f782212
+	gopkg.in/ini.v1 v1.28.0
+	gopkg.in/yaml.v2 v2.0.0-20170407172122-cd8b52f8269e
+)
