@@ -4,10 +4,10 @@ package basicauth_test
 import (
 	"testing"
 
-	"github.com/brucejrc/iris"
-	"github.com/brucejrc/iris/context"
-	"github.com/brucejrc/iris/httptest"
-	"github.com/brucejrc/iris/middleware/basicauth"
+	"github.com/kataras/iris"
+	"github.com/kataras/iris/context"
+	"github.com/kataras/iris/httptest"
+	"github.com/kataras/iris/middleware/basicauth"
 )
 
 func buildApp() *iris.Application {

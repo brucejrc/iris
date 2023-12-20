@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/brucejrc/iris"
-	"github.com/brucejrc/iris/httptest"
+	"github.com/kataras/iris"
+	"github.com/kataras/iris/httptest"
 )
 
 type resource string

@@ -9,8 +9,8 @@ import (
 	"net/http"
 	"testing"
 
+	"github.com/brucejrc/httpexpect"
 	"github.com/brucejrc/iris"
-	"github.com/iris-contrib/httpexpect"
 )
 
 type (

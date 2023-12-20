@@ -3,52 +3,93 @@ module github.com/brucejrc/iris
 go 1.20
 
 require (
-	github.com/BurntSushi/toml v0.3.0
-	github.com/Joker/jade v0.0.0-20161230135920-35b3f5bdbcc9
-	github.com/PuerkitoBio/goquery v1.1.1-0.20170520194520-2dc93891ab3b
+	github.com/BurntSushi/toml v1.3.2
+	github.com/Joker/jade v1.1.3
 	github.com/Unknwon/i18n v0.0.0-20170218213920-8372b908b587
-	github.com/ajg/form v0.0.0-20160822230020-523a5da1a92f
-	github.com/aymerick/raymond v2.0.2-0.20161209220724-72acac220747+incompatible
-	github.com/davecgh/go-spew v1.1.0
-	github.com/eknkc/amber v0.0.0-20170415084350-f0d8fdb67f9f
+	github.com/aymerick/raymond v2.0.3-0.20180322193309-b565731e1464+incompatible
+	github.com/brucejrc/httpexpect v1.1.2
+	github.com/eknkc/amber v0.0.0-20171010120322-cdade1c07385
 	github.com/esemplastic/unis v0.0.0-20170509161724-6e30ed034e8c
-	github.com/fatih/structs v1.0.1-0.20170524075631-74a29b9fac73
 	github.com/flosch/pongo2 v0.0.0-20170227155500-1d0f0d3af150
 	github.com/garyburd/redigo v1.1.0
-	github.com/gavv/monotime v0.0.0-20161010190848-47d58efa6955
-	github.com/getlantern/context v0.0.0-20160525112039-624d99b1798d
-	github.com/getlantern/errors v0.0.0-20160829164957-99fa440517e8
-	github.com/getlantern/filepersist v0.0.0-20160317154340-c5f0cd24e799
-	github.com/getlantern/golog v0.0.0-20170508214112-cca714f7feb5
-	github.com/getlantern/hex v0.0.0-20160523043825-083fba3033ad
-	github.com/getlantern/hidden v0.0.0-20160523043807-d52a649ab33a
-	github.com/getlantern/ops v0.0.0-20160607132800-b70875f5d689
-	github.com/getlantern/stack v1.5.1-0.20160516001742-02f928aad224
-	github.com/google/go-querystring v0.0.0-20170111101155-53e6ce116135
-	github.com/gorilla/websocket v1.1.0
+	github.com/gorilla/websocket v1.5.0
 	github.com/imdario/mergo v0.0.0-20160216103600-3e95a51e0639
-	github.com/imkira/go-interpol v1.1.0
-	github.com/juju/errors v0.0.0-20170509134257-8234c829496a
-	github.com/klauspost/compress v1.2.2-0.20170528132359-f3dce52e0576
-	github.com/klauspost/cpuid v0.0.0-20160302075316-09cded8978dc
-	github.com/microcosm-cc/bluemonday v0.0.0-20161202143824-e79763773ab6
+	github.com/kataras/iris v0.0.2
+	github.com/klauspost/compress v1.17.2
+	github.com/microcosm-cc/bluemonday v1.0.26
 	github.com/monoculum/formam v2.0.1-0.20170411223209-334e05a3c7f9+incompatible
-	github.com/moul/http2curl v0.0.0-20161031194548-4e24498b31db
-	github.com/pmezard/go-difflib v1.0.0
-	github.com/russross/blackfriday v0.0.0-20170509060714-0ba0f2b6ed7c
+	github.com/russross/blackfriday v1.5.2
 	github.com/satori/go.uuid v1.1.1-0.20170321230731-5bf94b69c6b6
-	github.com/sergi/go-diff v0.0.0-20170409071739-feef008d51ad
-	github.com/stretchr/testify v1.1.5-0.20170601210322-f6abca593680
 	github.com/valyala/bytebufferpool v1.0.0
-	github.com/xeipuuv/gojsonpointer v0.0.0-20170225233418-6fe8760cad35
-	github.com/xeipuuv/gojsonreference v0.0.0-20150808065054-e02fc20de94c
-	github.com/xeipuuv/gojsonschema v0.0.0-20170528113821-0c8571ac0ce1
-	github.com/yalp/jsonpath v0.0.0-20150812003900-31a79c7593bb
-	github.com/yudai/gojsondiff v0.0.0-20170107030110-7b1b7adf999d
-	github.com/yudai/golcs v0.0.0-20170316035057-ecda9a501e82
-	golang.org/x/crypto v0.0.0-20170601173114-e1a4589e7d3e
-	golang.org/x/net v0.0.0-20170602201553-e4fa1c5465ad
-	golang.org/x/text v0.0.0-20170603003618-ccbd3f782212
-	gopkg.in/ini.v1 v1.28.0
-	gopkg.in/yaml.v2 v2.0.0-20170407172122-cd8b52f8269e
+	golang.org/x/crypto v0.16.0
+	gopkg.in/yaml.v2 v2.4.0
+)
+
+require (
+	github.com/CloudyKit/fastprinter v0.0.0-20200109182630-33d98a066a53 // indirect
+	github.com/CloudyKit/jet/v4 v4.1.0 // indirect
+	github.com/Shopify/goreferrer v0.0.0-20220729165902-8cddb4f5de06 // indirect
+	github.com/ajg/form v1.5.1 // indirect
+	github.com/andybalholm/brotli v1.0.6 // indirect
+	github.com/aymerick/douceur v0.2.0 // indirect
+	github.com/davecgh/go-spew v1.1.1 // indirect
+	github.com/fatih/color v1.15.0 // indirect
+	github.com/fatih/structs v1.1.0 // indirect
+	github.com/fsnotify/fsnotify v1.6.0 // indirect
+	github.com/gavv/monotime v0.0.0-20190418164738-30dba4353424 // indirect
+	github.com/gobwas/glob v0.2.3 // indirect
+	github.com/google/go-querystring v1.1.0 // indirect
+	github.com/google/uuid v1.4.0 // indirect
+	github.com/gopherjs/gopherjs v1.17.2 // indirect
+	github.com/gorilla/css v1.0.0 // indirect
+	github.com/imkira/go-interpol v1.1.0 // indirect
+	github.com/iris-contrib/httpexpect/v2 v2.15.2 // indirect
+	github.com/iris-contrib/jade v1.1.4 // indirect
+	github.com/iris-contrib/pongo2 v0.0.1 // indirect
+	github.com/iris-contrib/schema v0.0.6 // indirect
+	github.com/json-iterator/go v1.1.12 // indirect
+	github.com/jtolds/gls v4.20.0+incompatible // indirect
+	github.com/juju/errors v1.0.0 // indirect
+	github.com/kataras/blocks v0.0.8 // indirect
+	github.com/kataras/golog v0.1.11 // indirect
+	github.com/kataras/iris/v12 v12.2.8 // indirect
+	github.com/kataras/pio v0.0.13 // indirect
+	github.com/kataras/sitemap v0.0.6 // indirect
+	github.com/kataras/tunnel v0.0.4 // indirect
+	github.com/kr/pretty v0.3.1 // indirect
+	github.com/mattn/go-colorable v0.1.13 // indirect
+	github.com/mattn/go-isatty v0.0.20 // indirect
+	github.com/mitchellh/go-wordwrap v1.0.1 // indirect
+	github.com/modern-go/concurrent v0.0.0-20180228061459-e0a39a4cb421 // indirect
+	github.com/modern-go/reflect2 v1.0.2 // indirect
+	github.com/pmezard/go-difflib v1.0.0 // indirect
+	github.com/russross/blackfriday/v2 v2.1.0 // indirect
+	github.com/ryanuber/columnize v2.1.0+incompatible // indirect
+	github.com/sanity-io/litter v1.5.5 // indirect
+	github.com/schollz/closestmatch v2.1.0+incompatible // indirect
+	github.com/sergi/go-diff v1.3.1 // indirect
+	github.com/smarty/assertions v1.15.0 // indirect
+	github.com/stretchr/testify v1.8.4 // indirect
+	github.com/valyala/fasthttp v1.51.0 // indirect
+	github.com/vmihailenco/msgpack/v5 v5.4.1 // indirect
+	github.com/vmihailenco/tagparser/v2 v2.0.0 // indirect
+	github.com/xeipuuv/gojsonpointer v0.0.0-20180127040702-4e3ac2762d5f // indirect
+	github.com/xeipuuv/gojsonreference v0.0.0-20180127040603-bd5ef7bd5415 // indirect
+	github.com/xeipuuv/gojsonschema v1.2.0 // indirect
+	github.com/yalp/jsonpath v0.0.0-20180802001716-5cc68e5049a0 // indirect
+	github.com/yosssi/ace v0.0.5 // indirect
+	github.com/yudai/gojsondiff v1.0.0 // indirect
+	github.com/yudai/golcs v0.0.0-20170316035057-ecda9a501e82 // indirect
+	golang.org/x/exp v0.0.0-20230905200255-921286631fa9 // indirect
+	golang.org/x/net v0.19.0 // indirect
+	golang.org/x/sys v0.15.0 // indirect
+	golang.org/x/text v0.14.0 // indirect
+	golang.org/x/time v0.4.0 // indirect
+	google.golang.org/protobuf v1.31.0 // indirect
+	gopkg.in/ini.v1 v1.67.0 // indirect
+	gopkg.in/tomb.v1 v1.0.0-20141024135613-dd632973f1e7 // indirect
+	gopkg.in/yaml.v1 v1.0.0-20140924161607-9f9df34309c0 // indirect
+	gopkg.in/yaml.v3 v3.0.1 // indirect
+	moul.io/http2curl v1.0.0 // indirect
+	moul.io/http2curl/v2 v2.3.0 // indirect
 )

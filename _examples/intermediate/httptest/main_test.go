@@ -3,11 +3,11 @@ package main
 import (
 	"testing"
 
-	"github.com/brucejrc/iris"
-	"github.com/brucejrc/iris/httptest"
+	"github.com/kataras/iris"
+	"github.com/kataras/iris/httptest"
 )
 
-// $ cd $GOPATH/src/github.com/brucejrc/iris/_examples/intermediate/httptest
+// $ cd $GOPATH/src/github.com/kataras/iris/_examples/intermediate/httptest
 // $ go test -v
 func TestNewApp(t *testing.T) {
 	app := newApp()

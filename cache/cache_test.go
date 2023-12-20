@@ -14,8 +14,8 @@ import (
 	"github.com/brucejrc/iris/context"
 	"github.com/brucejrc/iris/core/errors"
 
+	"github.com/brucejrc/httpexpect"
 	"github.com/brucejrc/iris/httptest"
-	"github.com/iris-contrib/httpexpect"
 )
 
 var (
